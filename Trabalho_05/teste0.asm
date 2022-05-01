@@ -1,0 +1,15 @@
+@0
+D=M
+@1                        
+D=D+M
+@10
+D;JGT
+@3
+(LOOP)
+M=D
+@8
+0;JMP
+@2
+M=D
+@LOOP
+0;JMP
